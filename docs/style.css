@@ -4,11 +4,11 @@
 
 :root {
 
-    --primary-color: #003366;
-    --primary-hover: #d4dce9;
+    --primary-color: #006633;
+    --primary-hover: #004d26;
 
-    --background-start: #b8cb7e;
-    --background-end: #8a428d;
+    --background-start: #006633;
+    --background-end: #2e8b57;
 
     --text-color: #333333;
 
@@ -24,6 +24,8 @@ body {
     margin: 0;
 
     font-family: Arial, sans-serif;
+
+    color: var(--text-color);
 
     background:
     linear-gradient(
@@ -48,6 +50,10 @@ body {
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
+/* ==========================
+   HEADER
+========================== */
+
 .header {
 
     background: var(--primary-color);
@@ -59,6 +65,12 @@ body {
     text-align: center;
 }
 
+.header h1,
+.header p {
+
+    color: white;
+}
+
 .logo {
 
     max-height: 80px;
@@ -66,11 +78,27 @@ body {
     margin-bottom: 15px;
 }
 
+/* ==========================
+   QUIZ BEREICHE
+========================== */
+
 #start-screen,
 #quiz-container,
 #result-container {
 
     padding: 40px;
+
+    color: var(--text-color);
+}
+
+#question-number,
+#question,
+#score,
+#rating,
+h2,
+p {
+
+    color: var(--text-color);
 }
 
 .hidden {
@@ -93,6 +121,8 @@ body {
     padding: 15px;
 
     font-size: 18px;
+
+    color: var(--text-color);
 
     border-radius: 12px;
 
