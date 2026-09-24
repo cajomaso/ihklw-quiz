@@ -4,7 +4,7 @@
 
 const SETTINGS = {
 
-    title: "IHKLW Wissensquiz",
+    title: "IHKLW Quiz",
 
     subtitle: "Wirtschaft • Lüneburg • IHKLW"
 
