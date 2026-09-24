@@ -1,0 +1,171 @@
+body {
+2
+font-family: Arial, sans-serif;
+3
+background: linear-gradient(135deg, #006633, #2e8b57);
+4
+margin: 0;
+5
+padding: 0;
+6
+}
+7
+ 
+8
+.container {
+9
+max-width: 900px;
+10
+margin: 50px auto;
+11
+background: white;
+12
+border-radius: 20px;
+13
+overflow: hidden;
+14
+box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+15
+}
+16
+ 
+17
+.header {
+18
+background: #006633;
+19
+color: white;
+20
+padding: 30px;
+21
+text-align: center;
+22
+}
+23
+ 
+24
+#quiz-container,
+25
+#result-container {
+26
+padding: 40px;
+27
+}
+28
+ 
+29
+#question-number {
+30
+color: gray;
+31
+margin-bottom: 15px;
+32
+}
+33
+ 
+34
+#question {
+35
+margin-bottom: 30px;
+36
+}
+37
+ 
+38
+.answer-btn {
+39
+width: 100%;
+40
+display: block;
+41
+margin-bottom: 15px;
+42
+padding: 15px;
+43
+font-size: 18px;
+44
+border: 2px solid #ddd;
+45
+border-radius: 12px;
+46
+cursor: pointer;
+47
+background: white;
+48
+transition: 0.3s;
+49
+}
+50
+ 
+51
+.answer-btn:hover {
+52
+background: #e8f5e9;
+53
+border-color: #006633;
+54
+}
+55
+ 
+56
+.progress {
+57
+margin-top: 30px;
+58
+height: 10px;
+59
+background: #ddd;
+60
+border-radius: 10px;
+61
+}
+62
+ 
+63
+#progress-bar {
+64
+height: 10px;
+65
+width: 0%;
+66
+background: #006633;
+67
+border-radius: 10px;
+68
+transition: 0.3s;
+69
+}
+70
+ 
+71
+button {
+72
+background: #006633;
+73
+color: white;
+74
+border: none;
+75
+padding: 15px 25px;
+76
+border-radius: 12px;
+77
+cursor: pointer;
+78
+}
+79
+ 
+80
+button:hover {
+81
+background: #004d26;
+82
+}
+83
+ 
+84
+.hidden {
+85
+display: none;
+86
+}
