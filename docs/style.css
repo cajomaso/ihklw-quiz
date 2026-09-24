@@ -1,1 +1,165 @@
-body{font-family:Arial,sans-serif;background:linear-gradient(135deg,#006633,#2e8b57);margin:0}.container{max-width:900px;margin:50px auto;background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.2)}.header{background:#006633;color:#fff;padding:30px;text-align:center}#quiz-container,#result-container{padding:40px}#question-number{color:gray;margin-bottom:15px}.answer-btn{width:100%;display:block;margin-bottom:15px;padding:15px;font-size:18px;border:2px solid #ddd;border-radius:12px;cursor:pointer;background:#fff}.answer-btn:hover{background:#e8f5e9;border-color:#006633}.progress{margin-top:30px;height:10px;background:#ddd;border-radius:10px}#progress-bar{height:10px;width:0;background:#006633}.hidden{display:none}button{background:#006633;color:#fff;border:none;padding:15px 25px;border-radius:12px}
+/* ==========================
+   FARBEN HIER ÄNDERN
+========================== */
+
+:root {
+
+    --primary-color: #006633;
+    --primary-hover: #004d26;
+
+    --background-start: #006633;
+    --background-end: #2e8b57;
+
+    --text-color: #333333;
+
+    --card-color: #ffffff;
+}
+
+/* ==========================
+   ALLGEMEIN
+========================== */
+
+body {
+
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    background:
+    linear-gradient(
+        135deg,
+        var(--background-start),
+        var(--background-end)
+    );
+}
+
+.container {
+
+    max-width: 900px;
+
+    margin: 40px auto;
+
+    background: var(--card-color);
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.header {
+
+    background: var(--primary-color);
+
+    color: white;
+
+    padding: 30px;
+
+    text-align: center;
+}
+
+.logo {
+
+    max-height: 80px;
+
+    margin-bottom: 15px;
+}
+
+#start-screen,
+#quiz-container,
+#result-container {
+
+    padding: 40px;
+}
+
+.hidden {
+
+    display: none;
+}
+
+/* ==========================
+   ANTWORTEN
+========================== */
+
+.answer-btn {
+
+    width: 100%;
+
+    display: block;
+
+    margin-bottom: 15px;
+
+    padding: 15px;
+
+    font-size: 18px;
+
+    border-radius: 12px;
+
+    border: 2px solid #dddddd;
+
+    background: white;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.answer-btn:hover {
+
+    background: #e5f5ea;
+
+    border-color: var(--primary-color);
+}
+
+/* ==========================
+   BUTTONS
+========================== */
+
+button {
+
+    background: var(--primary-color);
+
+    color: white;
+
+    border: none;
+
+    padding: 15px 25px;
+
+    border-radius: 12px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+button:hover {
+
+    background: var(--primary-hover);
+}
+
+/* ==========================
+   FORTSCHRITT
+========================== */
+
+.progress {
+
+    margin-top: 30px;
+
+    background: #dddddd;
+
+    height: 10px;
+
+    border-radius: 20px;
+}
+
+#progress-bar {
+
+    width: 0;
+
+    height: 10px;
+
+    border-radius: 20px;
+
+    background: var(--primary-color);
+}
