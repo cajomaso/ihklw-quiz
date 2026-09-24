@@ -4,11 +4,11 @@
 
 :root {
 
-    --primary-color: #006633;
-    --primary-hover: #004d26;
+    --primary-color: #003366;
+    --primary-hover: #d4dce9;
 
-    --background-start: #006633;
-    --background-end: #2e8b57;
+    --background-start: #6787c3;
+    --background-end: #b8cb7e;
 
     --text-color: #333333;
 
@@ -23,6 +23,14 @@ body {
 
     margin: 0;
 
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
     font-family: Arial, sans-serif;
 
     color: var(--text-color);
@@ -33,13 +41,17 @@ body {
         var(--background-start),
         var(--background-end)
     );
+
+    padding: 20px;
+
+    box-sizing: border-box;
 }
 
 .container {
 
-    max-width: 900px;
+    width: 100%;
 
-    margin: 40px auto;
+    max-width: 900px;
 
     background: var(--card-color);
 
